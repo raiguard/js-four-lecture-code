@@ -1,73 +1,76 @@
 body {
-    height: 200vh;
-    text-align: center;
-    box-sizing: border-box;
-    padding: 20px;
+  height: 200vh;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
 h1 {
-    font-size: 30px;
-    font-weight: bold;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 h3 {
-    font-size: 28px;
-    font-weight: bold;
-    text-decoration: underline;
-    margin: 15px 0px;
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 15px 0px;
 }
 
-section, ul, ol {
-    margin: 50px 0px;
+section,
+ul,
+ol {
+  margin: 50px 0px;
 }
 
-p, li {
-    font-size: 25px;
-    margin: 5px 0px;
+p,
+li {
+  font-size: 25px;
+  margin: 5px 0px;
 }
 
 form {
-    margin: 30px 0px;
+  margin: 30px 0px;
 }
 
 input {
-    height: 35px;
-    width: 250px;
-    box-sizing: border-box;
-    border: 1px solid black;
-    border-radius: 20px;
-    padding-left: 10px;
-    font-size: 20px;
+  height: 35px;
+  width: 250px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding-left: 10px;
+  font-size: 20px;
 }
 
 button {
-    height: 35px;
-    box-sizing: border-box;
-    width: 100px;
-    border-radius: 20px;
-    font-size: 20px;
+  height: 35px;
+  box-sizing: border-box;
+  width: 100px;
+  border-radius: 20px;
+  font-size: 20px;
 }
 
 .extra-practice {
-    margin-top: 30vh;
+  margin-top: 30vh;
 }
 
 .counter {
-    height: 250px;
-    width: 250px;
-    border: 1px solid black;
-    border-radius: 20px;
-    background: rebeccapurple;
-    color: white;
-    margin: 20px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+  height: 250px;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background: rebeccapurple;
+  color: white;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .counter-button {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background: lightgreen;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: lightgreen;
 }
