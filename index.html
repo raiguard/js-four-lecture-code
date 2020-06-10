@@ -13,7 +13,7 @@
     <section>
       <h3>Targeting Elements</h3>
       <p id="some-text">I am a p tag!</p>
-      <ul>
+      <ul id="unordered-list">
         <li>Item One</li>
         <li>Item Two</li>
         <li>Item Three</li>
@@ -27,14 +27,15 @@
     <!-- examples of events   -->
     <section>
       <h3>Events</h3>
-      <input placeholder="Type stuff!" />
-      <button>Click Me!</button>
+      <p id="user-input"></p>
+      <input id="some-input" placeholder="Type stuff!" />
+      <button onclick="clickMe()">Click Me!</button>
     </section>
     <!-- preventing event bubbling and default element behaviors -->
     <section>
       <h3>Event Bubbling/Preventing Default Behaviors</h3>
       <!-- event bubbling -->
-      <div id="parent">
+      <div id="parent" onclick="clickMe()">
         <button id="child">Click Me!</button>
       </div>
       <!-- preventing default element behavior -->
@@ -46,8 +47,8 @@
     <!-- putting it all together -->
     <section>
       <h3>Putting it all together(Mini Project)</h3>
-      <input placeholder="Add To Do" />
-      <button>Add</button>
+      <input id="task-input" placeholder="Add To Do" />
+      <button id="task-confirm-button">Add</button>
       <ul id="task-list"></ul>
     </section>
     <!-- extra practice -->
@@ -65,4 +66,8 @@
       </div>
     </section>
   </body>
+  <script src="index.js">
+    // const name = "Matt";
+    // console.log(name);
+  </script>
 </html>
