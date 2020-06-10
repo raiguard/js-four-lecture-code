@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS in the DOM</title>
+    <link rel='stylesheet' href='reset.css'>
+    <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+    <h1>JavaScript in the DOM</h1>
+    <!-- examples of targeting elements -->
+    <section>
+        <h3>Targeting Elements</h3>
+        <p id='some-text'>I am a p tag!</p>
+        <ul>
+            <li>Item One</li>
+            <li>Item Two</li>
+            <li>Item Three</li>
+        </ul>
+        <ol>
+            <li class='ordered-item'>Item One</li>
+            <li class='ordered-item'>Item Two</li>
+            <li class='ordered-item'>Item Three</li>
+        </ol>
+    </section>  
+    <!-- examples of events   -->
+    <section>
+        <h3>Events</h3>
+        <input placeholder='Type stuff!'/>
+        <button>Click Me!</button>
+    </section>
+    <!-- preventing event bubbling and default element behaviors -->
+    <section>
+        <h3>Event Bubbling/Preventing Default Behaviors</h3>
+        <!-- event bubbling -->
+        <div id='parent'>
+            <button id='child'>Click Me!</button>
+        </div>
+        <!-- preventing default element behavior -->
+        <form>
+            <input />
+            <input type='submit'/>
+        </form>
+    </section>
+    <!-- putting it all together -->
+    <section>
+        <h3>Putting it all together(Mini Project)</h3>
+        <input placeholder='Add To Do'/>
+        <button>Add</button>
+        <ul id='task-list'></ul>
+    </section>
+    <!-- extra practice -->
+    <section class='extra-practice'>
+        <h3>Extra Practice</h3>
+        <p>Add increment/decrement/clear functionality to the counter</p>
+        <div class='counter'>
+            <p>Counter</p>
+            <p id='count'>0</p>
+            <div>
+                <button class='counter-button'>-</button>
+                <button class='counter-button'>c</button>
+                <button class='counter-button'>+</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
